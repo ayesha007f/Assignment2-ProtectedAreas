@@ -41,18 +41,17 @@
             font-size: 1.125rem; /* Adjust paragraph font size */
             margin: 20px 0;
         }
-        ul {
+    ul {
             list-style-type: none; /* Remove default list styling */
             padding: 0;
-            display: flex; /* Use flexbox for layout */
-            flex-wrap: wrap; /* Allow items to wrap */
-            justify-content: center; /* Center the list */
-            margin: 20px 0; /* Add margin for spacing */
+            display: grid; /* Use grid layout for items */
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            gap: 20px; /* Space between items */
+            margin: 20px auto; /* Center list with margin */
+            max-width: 800px; /* Max width for the list */
         }
         li {
-            margin: 10px; /* Space between list items */
-            width: calc(50% - 20px); /* Two items per row with spacing */
-            box-sizing: border-box; /* Include padding and border in width */
+            text-align: left; /* Align text to the left */
         }
         .link-img {
             width: 50px; /* Set a fixed width for images next to links */
