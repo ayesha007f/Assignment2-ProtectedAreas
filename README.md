@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,6 +14,18 @@
             font-size: 16px; /* Adjust the base font size */
         }
         header {
+            position: relative; /* Use relative positioning */
+            z-index: 1; /* Place header above other elements */
+        }
+        .banner {
+            position: relative; /* Maintain relative position for header */
+        }
+        img {
+            width: 100%; /* Make image responsive */
+            max-width: 1000px; /* Limit max width */
+            height: auto;
+        }
+        h3 {
             position: absolute; /* Position header absolutely */
             top: 20px; /* Distance from top */
             left: 50%; /* Center horizontally */
@@ -22,16 +35,7 @@
             padding: 15px 20px; /* Padding around text */
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
             border-radius: 5px; /* Rounded corners */
-            z-index: 1; /* Place header above other elements */
-        }
-        img {
-            width: 100%; /* Make image responsive */
-            max-width: 1000px; /* Limit max width */
-            height: auto;
-        }
-        h3 {
-            margin: 0;
-            font-size: 2rem; /* Adjust font size */
+            font-size: 2rem; /* Larger font size */
         }
         p {
             padding: 15px;
@@ -41,12 +45,21 @@
         ul {
             list-style-type: none; /* Remove default list styling */
             padding: 0;
-            display: inline-block; /* Center the list */
-            text-align: left; /* Align text to the left */
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow items to wrap */
+            justify-content: center; /* Center the list */
             margin: 20px 0; /* Add margin for spacing */
         }
         li {
-            margin: 10px 0; /* Space between list items */
+            margin: 10px; /* Space between list items */
+            width: calc(50% - 20px); /* Two items per row with spacing */
+            box-sizing: border-box; /* Include padding and border in width */
+        }
+        .link-img {
+            width: 50px; /* Set a fixed width for images next to links */
+            height: auto; /* Keep aspect ratio */
+            vertical-align: middle; /* Align with text */
+            margin-right: 10px; /* Space between image and text */
         }
         footer {
             margin-top: 30px;
@@ -55,23 +68,17 @@
             color: white;
             padding: 10px 0;
         }
-        .link-img {
-            width: 50px; /* Set a fixed width for images next to links */
-            height: auto; /* Keep aspect ratio */
-            vertical-align: middle; /* Align with text */
-            margin-right: 10px; /* Space between image and text */
-        }
     </style>
 </head>
 <body>
 
     <!-- Name: Ayesha Fatima, Student Number: [Your Student Number] -->
     
-    <img src="https://wallup.net/wp-content/uploads/2016/01/207022-nature-landscape-forest-river-pine_trees-trees.jpg" alt="Protected Areas Banner"> <!-- Example image -->
-    <header>
-        <h3>Centennial College Progress Campus<br>Course COMP213 Assignment #2</h3>
-    </header>
-    
+    <div class="banner">
+        <img src="https://wallup.net/wp-content/uploads/2016/01/207022-nature-landscape-forest-river-pine_trees-trees.jpg" alt="Protected Areas Banner"> <!-- Example image -->
+        <h3>Websites about Protected Areas Issues</h3>
+    </div>
+
     <p>Protected areas are essential for conserving biodiversity and maintaining ecological processes. They provide habitat for wildlife, protect ecosystems, and ensure the sustainability of natural resources. In today's world, with increasing environmental threats, understanding and promoting protected areas is more important than ever.</p>
     
     <h4>Related Websites:</h4>
@@ -96,29 +103,33 @@
         </li>
         <li>
             <a href="https://www.protectedplanet.net/" target="_blank">
-                <img src="https://www.protectedplanet.net/assets/logo.svg" alt="Protected Planet" class="link-img">
+                <img src="https://www.goodfreephotos.com/albums/other-landscapes/scenic-view-of-the-mountains-and-pond-landscape.jpg" alt="Protected Planet" class="link-img">
                 Protected Planet
             </a>
         </li>
         <li>
             <a href="https://www.nationalgeographic.com/environment/article/protected-areas" target="_blank">
-                <img src="https://www.nationalgeographic.com/ca/branding/NationalGeographic-logo.svg" alt="National Geographic" class="link-img">
+                <img src="https://wallpapercave.com/wp/wp2034483.jpg" alt="National Geographic" class="link-img">
                 National Geographic - Protected Areas
             </a>
         </li>
         <li>
             <a href="https://www.ecowatch.com/protected-areas-2645867674.html" target="_blank">
-                <img src="https://www.ecowatch.com/static/media/logo.e20ca743.svg" alt="EcoWatch" class="link-img">
+                <img src="https://4.bp.blogspot.com/-KgT70H1qEgE/V1MQgrj4UvI/AAAAAAAAAOA/bBQbZxcq9aIlvzdvBi-Hu5vr9zClWABUACLcB/s1600/birds-1.jpg" alt="EcoWatch" class="link-img">
                 EcoWatch - Importance of Protected Areas
             </a>
         </li>
     </ul>
     
     <footer>
-        &copy; 2024 Ayesha Fatima - Centennial College COMP213 Assignment #2<br>
-        Credits: Images and information obtained from various sources.
+        &copy; 2024 Ayesha Fatima | Student Number 301452624 | Assignment 2: Protected Areas<br>
+        Credits:  IUCN, WWF, UNEP, Conservation International, National Geographic, BirdLife International.
     </footer>
 
 </body>
 </html>
 
+
+    
+   
+         
