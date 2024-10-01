@@ -90,7 +90,7 @@
             </a>
         </li>
         <li>
-            <a href="https://www.worldwildlife.org/initiatives/protected-areas" target="_blank">
+            <a href="https://forestsolutions.panda.org/approach/protected-and-conserved-areas" target="_blank">
                 <img src="https://tse3.mm.bing.net/th?id=OIP.Pixq9eppCBGpifpmTPXgFwAAAA&pid=Api&P=0&h=180" alt="World Wildlife Fund" class="link-img">
                 World Wildlife Fund - Protected Areas
             </a>
@@ -108,13 +108,13 @@
             </a>
         </li>
         <li>
-            <a href="https://www.nationalgeographic.com/environment/article/protected-areas" target="_blank">
+            <a href="https://education.nationalgeographic.org/resource/how-wildlife-bouncing-back-african-park/" target="_blank">
                 <img src="https://wallpapercave.com/wp/wp2034483.jpg" alt="National Geographic" class="link-img">
                 National Geographic - Protected Areas
             </a>
         </li>
         <li>
-            <a href="https://www.ecowatch.com/protected-areas-2645867674.html" target="_blank">
+            <a href="https://www.birdlife.org/campaigns-appeals/everybirdcounts/" target="_blank">
                 <img src="https://4.bp.blogspot.com/-KgT70H1qEgE/V1MQgrj4UvI/AAAAAAAAAOA/bBQbZxcq9aIlvzdvBi-Hu5vr9zClWABUACLcB/s1600/birds-1.jpg" alt="EcoWatch" class="link-img">
                 EcoWatch - Importance of Protected Areas
             </a>
