@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport tag -->
     <title>Websites about Protected Areas Issues</title>
     <style>
         body {
@@ -11,25 +11,32 @@
             margin: 0;
             padding: 0;
             text-align: center; /* Center content */
+            font-size: 16px; /* Adjust the base font size */
         }
         header {
-            background-color: #007a8a; /* Darker teal header */
+            position: absolute; /* Position header absolutely */
+            top: 20px; /* Distance from top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center adjustment */
+            background-color: rgba(0, 122, 138, 0.8); /* Semi-transparent background */
             color: white;
-            padding: 15px 0;
-        }
-        h3 {
-            margin: 0;
-            font-size: 1.8em; /* Adjust font size */
+            padding: 15px 20px; /* Padding around text */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            border-radius: 5px; /* Rounded corners */
+            z-index: 1; /* Place header above other elements */
         }
         img {
             width: 100%; /* Make image responsive */
             max-width: 1000px; /* Limit max width */
             height: auto;
-            border: 5px solid #007a8a; /* Border color */
+        }
+        h3 {
+            margin: 0;
+            font-size: 2rem; /* Adjust font size */
         }
         p {
             padding: 15px;
-            font-size: 1.1em;
+            font-size: 1.125rem; /* Adjust paragraph font size */
             margin: 20px 0;
         }
         ul {
@@ -55,7 +62,7 @@
     <header>
         <h3>Centennial College Progress Campus<br>Course COMP213 Assignment #2</h3>
     </header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banff_National_Park%2C_Canada.jpg/1200px-Banff_National_Park%2C_Canada.jpg" alt="Protected Areas Banner"> <!-- Example image -->
+    <img src="https://tse3.mm.bing.net/th?id=OIP.PQQsktmxZ8Bl1Idclk0LSgHaEo&pid=Api&P=0&h=180" alt="Protected Areas Banner"> <!-- Example image -->
     
     <p>Protected areas are essential for conserving biodiversity and maintaining ecological processes. They provide habitat for wildlife, protect ecosystems, and ensure the sustainability of natural resources. In today's world, with increasing environmental threats, understanding and promoting protected areas is more important than ever.</p>
     
