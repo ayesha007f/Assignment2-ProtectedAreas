@@ -40,11 +40,14 @@
             margin: 20px 0;
         }
         ul {
-            list-style-type: disc;
+            list-style-type: none; /* Remove default list styling */
             padding: 0;
             display: inline-block; /* Center the list */
             text-align: left; /* Align text to the left */
             margin: 20px 0; /* Add margin for spacing */
+        }
+        li {
+            margin: 10px 0; /* Space between list items */
         }
         footer {
             margin-top: 30px;
@@ -53,27 +56,63 @@
             color: white;
             padding: 10px 0;
         }
+        .link-img {
+            width: 50px; /* Set a fixed width for images next to links */
+            height: auto; /* Keep aspect ratio */
+            vertical-align: middle; /* Align with text */
+            margin-right: 10px; /* Space between image and text */
+        }
     </style>
 </head>
 <body>
 
     <!-- Name: Ayesha Fatima, Student Number: [Your Student Number] -->
     
+    <img src="https://wallup.net/wp-content/uploads/2016/01/207022-nature-landscape-forest-river-pine_trees-trees.jpg" alt="Protected Areas Banner"> <!-- Example image -->
     <header>
         <h3>Centennial College Progress Campus<br>Course COMP213 Assignment #2</h3>
     </header>
-    <img src="https://tse3.mm.bing.net/th?id=OIP.PQQsktmxZ8Bl1Idclk0LSgHaEo&pid=Api&P=0&h=180" alt="Protected Areas Banner"> <!-- Example image -->
     
     <p>Protected areas are essential for conserving biodiversity and maintaining ecological processes. They provide habitat for wildlife, protect ecosystems, and ensure the sustainability of natural resources. In today's world, with increasing environmental threats, understanding and promoting protected areas is more important than ever.</p>
     
     <h4>Related Websites:</h4>
     <ul>
-        <li><a href="https://www.iucn.org/theme/protected-areas/about" target="_blank">IUCN - About Protected Areas</a></li>
-        <li><a href="https://www.worldwildlife.org/initiatives/protected-areas" target="_blank">World Wildlife Fund - Protected Areas</a></li>
-        <li><a href="https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/" target="_blank">The Nature Conservancy - Places We Protect</a></li>
-        <li><a href="https://www.protectedplanet.net/" target="_blank">Protected Planet</a></li>
-        <li><a href="https://www.nationalgeographic.com/environment/article/protected-areas" target="_blank">National Geographic - Protected Areas</a></li>
-        <li><a href="https://www.ecowatch.com/protected-areas-2645867674.html" target="_blank">EcoWatch - Importance of Protected Areas</a></li>
+        <li>
+            <a href="https://www.iucn.org/theme/protected-areas/about" target="_blank">
+                <img src="https://c.wallhere.com/photos/e5/65/nature_river_colorful_landscape-228537.jpg!d" alt="IUCN" class="link-img">
+                IUCN - About Protected Areas
+            </a>
+        </li>
+        <li>
+            <a href="https://www.worldwildlife.org/initiatives/protected-areas" target="_blank">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Pixq9eppCBGpifpmTPXgFwAAAA&pid=Api&P=0&h=180" alt="World Wildlife Fund" class="link-img">
+                World Wildlife Fund - Protected Areas
+            </a>
+        </li>
+        <li>
+            <a href="https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/" target="_blank">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.58dFCtLfPN3w7ij9U1_w2gHaEO&pid=Api&P=0&h=180" alt="The Nature Conservancy" class="link-img">
+                The Nature Conservancy - Places We Protect
+            </a>
+        </li>
+        <li>
+            <a href="https://www.protectedplanet.net/" target="_blank">
+                <img src="https://www.protectedplanet.net/assets/logo.svg" alt="Protected Planet" class="link-img">
+                Protected Planet
+            </a>
+        </li>
+        <li>
+            <a href="https://www.nationalgeographic.com/environment/article/protected-areas" target="_blank">
+                <img src="https://www.nationalgeographic.com/ca/branding/NationalGeographic-logo.svg" alt="National Geographic" class="link-img">
+                National Geographic - Protected Areas
+            </a>
+        </li>
+        <li>
+            <a href="https://www.ecowatch.com/protected-areas-2645867674.html" target="_blank">
+                <img src="https://www.ecowatch.com/static/media/logo.e20ca743.svg" alt="EcoWatch" class="link-img">
+                EcoWatch - Importance of Protected Areas
+            </a>
+        </li>
     </ul>
     
     <footer>
@@ -83,3 +122,4 @@
 
 </body>
 </html>
+
