@@ -7,28 +7,44 @@
     <style>
         body {
             font-family: Verdana, sans-serif;
-            background-color: #f0f8ff; /* Light blue background */
+            background-color: #e6f7ff; /* Light blue background */
             margin: 0;
             padding: 0;
             text-align: center; /* Center content */
         }
+        header {
+            background-color: #007a8a; /* Darker teal header */
+            color: white;
+            padding: 15px 0;
+        }
         h3 {
-            margin: 20px 0;
+            margin: 0;
+            font-size: 1.8em; /* Adjust font size */
         }
         img {
             width: 100%; /* Make image responsive */
-            max-width: 800px; /* Limit max width */
+            max-width: 1000px; /* Limit max width */
             height: auto;
+            border: 5px solid #007a8a; /* Border color */
+        }
+        p {
+            padding: 15px;
+            font-size: 1.1em;
+            margin: 20px 0;
         }
         ul {
             list-style-type: disc;
             padding: 0;
             display: inline-block; /* Center the list */
             text-align: left; /* Align text to the left */
+            margin: 20px 0; /* Add margin for spacing */
         }
         footer {
             margin-top: 30px;
             font-size: 0.9em;
+            background-color: #007a8a; /* Darker teal footer */
+            color: white;
+            padding: 10px 0;
         }
     </style>
 </head>
@@ -36,8 +52,10 @@
 
     <!-- Name: Ayesha Fatima, Student Number: [Your Student Number] -->
     
-    <h3>Centennial College Progress Campus<br>Course COMP213 Assignment #2</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Gran_Teton_National_Park%2C_Wyoming.jpg/1200px-Gran_Teton_National_Park%2C_Wyoming.jpg" alt="Protected Areas Banner"> <!-- Example image -->
+    <header>
+        <h3>Centennial College Progress Campus<br>Course COMP213 Assignment #2</h3>
+    </header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banff_National_Park%2C_Canada.jpg/1200px-Banff_National_Park%2C_Canada.jpg" alt="Protected Areas Banner"> <!-- Example image -->
     
     <p>Protected areas are essential for conserving biodiversity and maintaining ecological processes. They provide habitat for wildlife, protect ecosystems, and ensure the sustainability of natural resources. In today's world, with increasing environmental threats, understanding and promoting protected areas is more important than ever.</p>
     
