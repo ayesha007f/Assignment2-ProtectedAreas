@@ -6,63 +6,63 @@
     <style>
         body {
             font-family: Verdana, sans-serif;
-            background-color: #e6f7ff; /* Light blue background */
+            background-color: #e6f7ff; 
             margin: 0;
             padding: 0;
-            text-align: center; /* Center content */
-            font-size: 16px; /* Adjust the base font size */
+            text-align: center; 
+            font-size: 16px; 
         }
         header {
-            position: relative; /* Use relative positioning */
-            z-index: 1; /* Place header above other elements */
+            position: relative; 
+            z-index: 1; 
         }
         .banner {
-            position: relative; /* Maintain relative position for header */
+            position: relative; 
         }
         img {
-            width: 100%; /* Make image responsive */
-            max-width: 1000px; /* Limit max width */
+            width: 100%; 
+            max-width: 1000px; 
             height: auto;
         }
         h3 {
-            position: absolute; /* Position header absolutely */
-            top: 20px; /* Distance from top */
-            left: 50%; /* Center horizontally */
-            transform: translateX(-50%); /* Center adjustment */
-            background-color: rgba(0, 122, 138, 0.8); /* Semi-transparent background */
+            position: absolute; 
+            top: 20px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            background-color: rgba(0, 122, 138, 0.8); 
             color: white;
-            padding: 15px 20px; /* Padding around text */
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
-            border-radius: 5px; /* Rounded corners */
-            font-size: 2rem; /* Larger font size */
+            padding: 15px 20px; 
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+            border-radius: 5px; 
+            font-size: 2rem; 
         }
         p {
             padding: 15px;
-            font-size: 1.125rem; /* Adjust paragraph font size */
+            font-size: 1.125rem; 
             margin: 20px 0;
         }
     ul {
-            list-style-type: none; /* Remove default list styling */
+            list-style-type: none;
             padding: 0;
-            display: grid; /* Use grid layout for items */
-            grid-template-columns: repeat(2, 1fr); /* Two columns */
-            gap: 20px; /* Space between items */
-            margin: 20px auto; /* Center list with margin */
-            max-width: 800px; /* Max width for the list */
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 20px; 
+            margin: 20px auto; 
+            max-width: 800px; 
         }
         li {
-            text-align: left; /* Align text to the left */
+            text-align: left; 
         }
         .link-img {
-            width: 50px; /* Set a fixed width for images next to links */
-            height: auto; /* Keep aspect ratio */
-            vertical-align: middle; /* Align with text */
-            margin-right: 10px; /* Space between image and text */
+            width: 50px; 
+            height: auto; 
+            vertical-align: middle; 
+            margin-right: 10px; 
         }
         footer {
             margin-top: 30px;
             font-size: 0.9em;
-            background-color: #007a8a; /* Darker teal footer */
+            background-color: #007a8a; 
             color: white;
             padding: 10px 0;
         }
@@ -70,7 +70,7 @@
 </head>
 <body>
 
-    <!-- Name: Ayesha Fatima, Student Number: [Your Student Number] -->
+    
     
     <div class="banner">
         <img src="https://wallup.net/wp-content/uploads/2016/01/207022-nature-landscape-forest-river-pine_trees-trees.jpg" alt="Protected Areas Banner"> <!-- Example image -->
